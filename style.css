@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    padding: 16px 80px;
+}
+.container{
+    display: flex;
+    padding: 0 32px;
+    justify-content: space-between;
+    align-items: center;
+}
+.Ner{
+    color: #111827;
+    font-size: 30px;
+}
+.Navigation{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.Navigation a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #4B5563;
+}
+.Divider{
+    height: 24px;
+    width: 1px;
+    background-color: #F3F4F6;
+}
+.actions{
+    display: flex;
+    gap: 16px;
+}
+.actions-icon{
+    padding: 6px;
+}
+.actions-icon img{
+    height: 24px;
+    width: 24px;
+}
+.button-download{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 16px;
+    border-radius: 12px;
+    background-color: #111827;
+}
+.button-download p{
+    color: #F9FAFB;
+    font-size: 16px;
+    line-height: 24px; 
+}
+
+                             /*       Taniltsuulga kheseg     */
+
+
+ .Hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 96px 80px;
+ }
+ .hero-container{
+    display: flex;
+    padding: 0 32px;
+    gap: 48px;
+ }
+ .column-1{
+    display: flex;
+    flex-direction: column;
+    max-width: 768px;
+    gap: 48px;
+ }
+ .content{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+ } 
+ .Hi-chinbaa{
+    font-size: 60px;
+    line-height: 72px;
+    color: #111827;
+ }
+ .namtar{
+    font-size: 16px;
+    line-height: 24px;
+    color: #4B5563;
+ }
+ .group{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+ }
+ .location{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+ }
+ .location p{
+    font-size: 16px;
+    color: #4B5563;
+    line-height: 24px;
+ }
+ .Hire{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+ }
+ .Hire p{
+    font-size: 16px;
+    color: #4B5563;
+    line-height: 24px;
+ }
+ .Hire img{
+    margin: 8px;
+ }
+ .namtar-icon{
+    display: flex;
+    gap: 4px;
+ }
+ .namtar-icon img{
+    margin: 6px; 
+    height: 24px;
+ }
+ .column-2{
+    min-width: 384px;
+ }
+ .suuder-div{
+    position: absolute;
+
+    height: 320px;
+    width: 280px;
+    background-color: #E5E7EB;
+    border: 8px solid white;
+ }
+ .pic-container{
+    
+ }
+
